@@ -1,14 +1,19 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+[
+  {
+    "id": "1", //hotel id
+    "name": "ahemdabad hotel", //hotel name
+    "country": "india", //hotel country
+    "city": "Ahemdabad", //hotel country
+    "price": 1400, //offer price
+    "images": [ //hotel images
+      "https://media.istockphoto.com/photos/interior-of-a-modern-luxury-hotel-double-bed-bedroom-picture-id1163498940?k=20&m=1163498940&s=612x612&w=0&h=tUPidNW2ny095sCR97dur7cbrCnYpcjHbevUTJyB8Jc=",
+      ...
+    ],
+    "date_start": "2016-04-02T08:09:12.088Z", //offer start date
+    "date_end": "2016-11-30T04:27:59.359Z", //offer end date
+    "stars": 2, //hotel stars
+    "rating": 1.811553610023111, //hotel rating
+    "description": "near paldi char rasta" //hotel description
+  },
+  ...
+]
